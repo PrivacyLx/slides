@@ -1,0 +1,565 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Introdução na privacidade a Internet</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		<!-- Added for Printing, in presentation mode enable attribution class in css/reveal.css -->
+            Reveal.configure({ pdfMaxPagesPerSlide: 1 });
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+                    <section data-background="cifra-te-ou-devoram-images-session00/cifrate.png"
+                        data-background-size="100vh">
+    				</section>
+                    <section data-background="cifra-te-ou-devoram-images-session00/cifrate.png"
+                             data-background-size="100vh"
+                             style="background-color:rgba(0,0,0,0.6);">
+                        Cifra-te ou Devoram-te <br>
+                        0xCFD0 <br>
+                        # 01010110010101011 <br>
+                        Introduction to Online Privacy and Anonymity (Part 1)
+                    </section>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Surveillance_cameras.jpg" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="http://en.wikipedia.org/wiki/Image:Surveillance_quevaal.jpg">Quevaal</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Surveillance_cameras.jpg" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+				   	<p>
+                    Que e a privacidade (inglês: privacy)?
+				   	</p>
+                </section>
+                <section>
+                    Direito de:
+                    <ul>
+                        <li>de reservar informações individuais (pessoais) ou de grupo</li>
+                        <li>estar em paz</li>
+                        <li>deisar secretas ou limitadas as informaçoes de uma pessoa</li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li>não ser monitorado</li>
+                    	<li>não ser registrado</li>
+                    	<li>não ser reconhecido</li>
+                    </ul>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Sessaoconstituinte.jpg" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="http://www.agenciabrasil.gov.br/galerias-de-fotos/2008/10/01/galeria_de_fotos.2008-10-01.7803856103">Agência Brasil</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Sessaoconstituinte.jpg" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                    <p>
+                    Constituição Federal de 1988
+                    Título II: Dos Direitos e Garantias Fundamentais
+                    Capítulo I: Dos Direitos e Deveres Individuais e Coletivos 
+                    </p>
+                </section>
+                <section>
+                    <p>
+                    Artigo 5° Todos são iguais perante a lei, sem distinção de qualquer natureza,
+                    garantindo-se aos brasileiros e aos estrangeiros residentes no País a
+                    inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à
+                    propriedade, nos termos seguintes:
+                    </p>
+                </section>
+
+                <section>
+                    <p>
+                    X - são invioláveis a intimidade, a vida privada, a honra e a imagem das
+                    pessoas, assegurado o direito a indenização pelo dano material ou moral
+                    decorrente de sua violação; 
+                    </p>
+                </section>
+                <section>
+                    Todxs entendemos os conceptos na privacidade:
+                    <ul>
+                        <li>Fechar as cortinas na casa</li>
+                        <li>Ir só no banheiro</li>
+                        <li>Outros momentos...</li>
+                    </ul>
+                </section>
+
+                <section data-background="cifra-te-ou-devoram-images-session01/IllinoisTelephoneAndTelegraphAd.png" data-background-size="60vh">
+                    <span class="attribution"><small><small>Source: <a href="https://commons.wikimedia.org/wiki/File:IllinoisTelephoneAndTelegraphAd.png">Hameltonian and Republican National Convention Program</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/IllinoisTelephoneAndTelegraphAd.png" style="background-color:rgba(0,0,0,0.8);" data-background-size="60vh">
+                Tecnologia e privacidade
+                </section>
+                <section>
+                    <ul>
+                        <li>"Novas" tecnologias - novas métodos para coletar dados privadas</li>
+                        <li>Grande escala sistemas de informação guardar imensos dados de informações privadas</li>
+                    </ul>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/12887906353_ae883c8978_o_d.jpg">
+                    <span class="attribution"><small><small>Source: <a href="https://ccsearch.creativecommons.org/image/detail/k_KqXrbA_u0sx5l4mPHT_Q==">“Privacy” by KylaBorg is licensed under CC BY 2.0</a></small></small></span>
+                </section>
+                <section>
+                    <ul>
+                        <li>Impossível saber quantos e que tipo de informação de bancos de dados tem</li>
+                        <li>Exemplo: CPF a supermercado</li>
+                    </ul>
+                </section>
+                <section>
+                Internet e privacidade
+                </section>
+                <section>
+                    <ul>
+                        <li>Cada imagem, video, status updates, mensagens, posts, textos, som, Internet guarda para sempre</li>
+                        <li>Internet não esquece</li>
+                        <li>Empresas pesquisam a vida dos candidatos usando máquinas em busca de informações, nas rede sociais, imagem/videos, blogs ou paginas na web.</li>
+                    </ul>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/BigBrother.jpg" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="http://mideastposts.com/wp-content/uploads/2011/05/BigBrother.jpg">MidEastPosts.com</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/BigBrother.jpg" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                    <ul>
+                        <li>Pessoas são despedidas por postar imagem/posts nos redes sociais</li>
+                        <li>Identidades múltiplas na Internet nao e fácil para manter e usar.  Exemplo: trabalho, família, religião, politicas</li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li>Pensar antes de postar conteúdo.. não e suficiente</li>
+                        <li>E fácil observar todos os procedimentos</li>
+                    <ul>
+                </section>
+                <section>
+                    <p>
+                        Browsing logs, search queries, conteúdo para tirar conclusões de:
+                        orientação sexual, politica, visões religiosas, racial, uso de substancia,
+                        inteligencia (pesquisa de interessos), personalidade
+                    </p>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/1*yOwLSN6dnuoC7hHx1sbHJA.jpeg">
+                    <span class="attribution"><small><small>Source: <a href="https://medium.com/medium-brasil/manifesto-de-um-cypherpunk-3c678c4898c5">Manifesto de um Cypherpunk</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/1*yOwLSN6dnuoC7hHx1sbHJA.jpeg" style="background-color:rgba(0,0,0,0.8);">
+                    <p><i>
+                        A privacidade é necessária para uma sociedade aberta na era eletrônica.
+                        Privacidade não é segredo. Um assunto privado é algo que não desejamos que o
+                        mundo inteiro saiba, mas um assunto secreto é algo que ninguém quer que ninguém
+                        saiba. Privacidade é o poder de se revelar seletivamente ao mundo.
+                    </p></i>
+                    <br>
+                    <p>Source: <a href="https://medium.com/medium-brasil/manifesto-de-um-cypherpunk-3c678c4898c5">Manifesto de um Cypherpunk</a>
+                    </p>
+                </section>
+                <section>
+                    <ul>
+                        <li>Quando eu compro uma revista em uma loja e entrego dinheiro para o funcionário, não há necessidade de saber quem eu sou</li>
+                        <li>Privacidade precisa anonimato, criptografia e segurança</li>
+                        <li>Transações anonimas</li>
+                        <li>Criptografar é indicar o desejo de privacidade</li>
+                    <ul>
+                </section>
+                <section>
+                    Privacidade na Internet *é* possível!
+                </section>
+                <section>
+                    como?
+                </section>
+                <section>
+                    <ul>
+                        <li>Praticas de segurança (práticas preventivas, higiene digital)</li>
+                        <li>Navegação a Internet e usam as tecnologias anônima</li>
+                        <li>Utilização de criptografia</li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Heartbleed-Patch-Needed.svg" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://openclipart.org/detail/192604/heartbleed-patch-needed">rejon</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Heartbleed-Patch-Needed.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                Segurança
+                </section>
+                <section>
+                    <p>
+                    Segurança é a proteção a determinadas ameaças em nossas atividades
+                    Por exemplo: alpinistas usam uma série de equipamentos que possuem funções de
+                    proteção contra quedas.
+                    </p>
+                </section>
+                <section>
+                    <p>
+                    Segurança não é paranóia
+                    </p>
+                    <p>
+                    Ignorar qualquer medida de segurança e agir como quem diz “está tudo dominado
+                    mesmo, né?” Não
+                    </p>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Puffy_mascot_openbsd.gif" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://commons.wikimedia.org/wiki/File:PQuevaaluffy_mascot_openbsd.gif">OpenBSD</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Puffy_mascot_openbsd.gif" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                    <p>
+                    Procedimentos de segurança não são os mais confortáveis.
+                    Relação entre conforto e segurança que deve ser balanceada.
+                    </p>
+                </section>
+                <section>
+                    <p>
+                    Redução de danos: mudanças incrementais
+                    </p>
+                    <p>
+                    Relação econômica na segurança: custo, eficácia e probabilidade de ataque.
+                    </p>
+                </section>
+                <section>
+                    Dado cultural (práticas preventivas)
+                </section>
+                <section>
+                    Segurança dos bens depende da força de todos os componentes do sistema
+                    <p>
+                    A melhor fechadura de porta é inútil se você não tem travas de
+                    janelas inferiores.
+                    </p>
+                </section>
+                <section>
+                    Simplicidade: mais seguro e mais fácil
+                    <p>
+                    Reduzir o número e a complexidade dos componentes em seus
+                    sistemas de informação
+                    </p>
+                </section>
+                <section>
+                    Mais caro não significa mais seguro
+                </section>
+                <section>
+                    Confiar suas informações em alguém?
+                    <p>
+                    Saber em quem está confiando e que tipo de informações/dados
+                    Amigxs, família, colegxs, aos seus advogadxs(?)
+                    </p>
+                </section>
+                <section>
+                    Quanto menos pessoas compartilham um segredo, melhor é a chance de mantê-lo secreto.
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Heart-Bleed-Patch-by-Merlin2525.svg" data-background-size="80vh">
+                    <span class="attribution"><small><small>Source: <a href="https://openclipart.org/detail/192935/heart-bleed-patch">Merlin2525</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Heart-Bleed-Patch-by-Merlin2525.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="80vh">
+                Segurança perfeita: não existe
+                </section>
+                <section>
+                    Segurança nunca é definitiva: é um processo
+                    <p>
+                    Reavaliar continuamente as suas práticas de segurança: o que
+                    hoje é seguro pode não ser amanhã
+                    </p>
+                </section>
+                <section>
+                    <ul>
+                        <li>Praticas de segurança</li>
+                        <li>Software livre de código aberto</li>
+                        <li>Senhas fortes (utilize um chaveiro de senhas)</li>
+                        <li>Mantendo seus dados seguros</li>
+                        <li>Evitar ataques (phishing, malwares)</li>
+                        <li>Proteger ao usar o celular</li>
+                    </ul>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/expert-fire-wall.svg" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://openclipart.org/detail/63019/padepokan-firewall">dias</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/expert-fire-wall.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                    <ul>
+                        <li>Autenticação de dois fatores (two-factor authentication)</li>
+                        <li>Criptografar mensagens e e-mails</li>
+                        <li>Eliminar/apagar seu metadados (metainformação)</li>
+                        <li>Proteger ao usar o celular</li>
+                    </ul>
+                </section>
+                <section>
+                    Machine Indentification Code <br>
+                    Printer metadata
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Machine_Identification_Code.png" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://en.wikipedia.org/wiki/Machine_Identification_Code#/media/File:Machine_Identification_Code.png">Heino Sauerbrey [CC BY-SA 3.0]</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Machine_Identification_Code.png" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                    Machine Identification Code (MIC, yellow dots, tracking
+                    dots, secret dots) under UV-light in regular (red and blue
+                    markings) and irregular arrangement (green).
+                    <span class="attribution"><small><small>Source: <a href="https://en.wikipedia.org/wiki/Machine_Identification_Code#/media/File:Machine_Identification_Code.png">Heino Sauerbrey [CC BY-SA 3.0]</a></small></small></span>
+                </section>
+                <section>
+                    <i>"We kill people based on metadata"</i>
+                    <small>
+                        Michael Hayden, former director of the NSA and the CIA
+                    </small>
+                </section>
+                <section>
+                    <ul>
+                        <li>Navegação anônima</li>
+                        <li>Navegação criptografada</li>
+                        <li>Protegendo-se nas redes sociais</li>
+                        <li>Proteger ao usar o celular</li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section>
+                Como a Internet funciona?
+                </section>
+                <section
+                    data-background="cifra-te-ou-devoram-images-session01/Internet_map_1024_-_transparent,_inverted-Internet_map_1024_-_transparent,_inverted.png" data-background-size="100vh" data-background-color=#ffffff>
+                    <span class="attribution"><small><small>Source: <a href="https://commons.wikimedia.org/wiki/File:Internet_map_1024_-_transparent,_inverted.png">Mapa parcial de Internet basado en la información obtenida del sitio opte.org el 15 de enero de 2005</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Internet_map_1024_-_transparent,_inverted-Internet_map_1024_-_transparent,_inverted.png" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                Uma gigantesca rede de computadores e aparelhos*
+                </section>
+                <section>
+                    Media Access Control (MAC) address
+                    <ul>
+                        <li>Manufacture's burned in (hardware) address</li>
+                        <li>Example MAC address: 01:23:45:67:89:AB</li>
+                    </ul>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/OSI_2014.jpg" data-background-color="#ffffff" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="http://gargasz.info/OSI-model/OSI_2014.jpg">gargasz.info</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/internet-schema-5.png" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://mdn.mozillademos.org/files/8449/internet-schema-5.png">About MDN by Mozilla Contributors is licensed under CC-BY-SA 2.5</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/internet-schema-5.png" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                Qualquer computador conectado à uma rede preciso identificação - "Endereço IP"
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/route-mac-ip-list.jpg" data-background-size="100vh">
+                </section>
+                <section>
+                    <ul>
+                        <li>Dificuldades para lembrar estes endereços.. domínios (apelidos)</li>
+                        <li>Resolução de nome (domínio - IP):</li>
+                    <ul>
+                        <li>disgraca.com --> 207.154.230.166</li>
+                    </ul>
+                    </ul>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Telefonbog_ubt-1.JPG" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://en.wikipedia.org/wiki/File:Telefonbog_ubt-1.JPG">Tomasz Sienicki</a></small></small></span>
+                        Sistema de gerenciamento de nomes (DNS) (Domain Name System)
+                </section>
+                <section>
+                    <ul>
+                        <li>Internet não é WWW (World Wide Web)</li>
+                        <li>Internet é a infraestrutura</li>
+                        <li>Web é um serviço construído sob esta infraestrutura</li>
+                    </ul>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/We_know_where_you_are.jpg" data-background-size="90vh">
+                    <span class="attribution"><small><small>Source: <a href="https://commons.wikimedia.org/wiki/File:We_know_where_you_are_(71797).jpg">Rhododendrites</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/We_know_where_you_are.jpg" style="background-color:rgba(0,0,0,0.8);" data-background-size="90vh">
+                    Quando navegamos na internet basicamente transferimos
+                    pacotes de informação com dados:
+                    <ul>
+                        <li>Endereço (IP) de remetente e destinatário</li>
+                        <li>Chamamos o endereço de remetente do nosso endereço (IP)</li>
+                        <li>Localiza geograficamente</li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li>WWW (World Wide Web):</li>
+                        <ul>
+                            <li>Navegador web</li>
+                            <li>Sistema operativo</li>
+                            <li>Addons/Extensions</li>
+                        </ul>
+                    <ul>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/1486151228.svg" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="#https://openclipart.org/detail/271912/internet-things">Eggib</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/1486151228.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                    <p>
+                        Outros serviços: e-mail, telefonia, bate-papo (IRC, IM),
+                        compartilhamento de arquivos, ...
+                    </p>
+                </section>
+            </section>
+            <section>
+                <section>
+                Anonimato
+                </section>
+                <section>
+                    <ul>
+                        <li>Ανωνυμία (anōnumía, grego: sem nome) a qualidade ou condição do que é anônimo, isto é, sem nome ou assinatura</li>
+                        <li>Usos de anonimato antes na Internet: Obras antigas, artigos, livros (ou pseudônima: anonimato parcial, exemplo: William Shakespeare)</li>
+                        <ul>
+                            <li>Preconceito de gente (exemplo: autor real cor)</li>
+                            <li>Clérigos, advogadxs, médicos (psicólogo, exame laboratório)</li>
+                        </ul>
+                    </ul>
+                </section>
+                <section>
+                    <p>
+                    <i>"People will often speak more honestly if they are allowed to speak anonymously"</i>
+                    </p>
+                    <p>
+                    Autor: Guardian editorial guidelines
+                    </p>
+                </section>
+                <section>
+                    Anonimato na Internet
+                </section>
+                <section>
+                    <li>Difícil e não é garantido (IPs, metadados, impressões digital)</li>
+                    <li>Falha implementar correto</li>
+                    <li>Acidental revelação da identidade</li>
+                    <li>Ataques de anonimato (observação del tráfico)</li>
+                </section>
+                <section>
+                    Usos de anonimato na Internet:
+                </section>
+                <section>
+                    <ul>
+                        <li>Autor de publicações e comentários (maioria pseudônimos)</li>
+                        <li>Wikipedia (usam apenas seus endereços IP, pseudônimos)</li>
+                        <li>Protege jornalistas, quem defende os direitos humanos, vítimas de violência doméstica, pesquisadorxs, instituições acadêmicas</li>
+                        <li>Anti vigilância</li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li>Pessoas que desejam manter o controle sobre sua privacidade online</li>
+                        <li>Canais de comunicação seguros para testemunhas e informantes</li>
+                        <li>Agentes da lei e em investigações para monitorizar sites e serviços online suspeitos de forma anônima. </li>
+                        <li>Sites de notícias mostram artigos diferentes baseados na sua localização</li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li>Sites de compras online podem fazer discriminação de preços baseados no seu país de origem.</li>
+                        <li>Uma pessoa comum é vigiada por mais de uma centena de empresas que vendem "perfiles" para anunciantes.</li>
+                        <li>A sua atividade em redes sociais pode ser revelada e usada contra você por pessoas malintencionadas.</li>
+                        <li>Liberdade de expressão </li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Tor-logo-2011-flat.svg" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://media.torproject.org/image/official-images-session1/2011-tor-logo-flat.svg">The Tor Project, Inc.</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/Tor-logo-2011-flat.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                    The Onion Router (Tor)
+                </section>
+                <section>
+                    <ul>
+                        <li>Software livre de código aberto</li>
+                        <li>Rede anônimo global descentralizada </li>
+                        <li>Operadorxs voluntárixs</li>
+                        <li>Protegido contra a censura na Internet</li>
+                        <li>Proporciona anonimato e privacidade on-line</li>
+                    </ul>
+                </section>
+                <section>
+                    Como funciona o Tor
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/como-funciona-o-tor.svg" data-background-color="#ffffff" data-background-size="50vh">
+                    <span class="attribution"><small><small>Source: <a href="https://people.torproject.org/~karsten/tor-brochure/tor-brochure-pt-BR.pdf">Tor brochure</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/htw1_es.png" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://www.torproject.org/about/overview.html.en#thesolution">Tor website</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/htw2_es.png" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://www.torproject.org/about/overview.html.en#thesolution">Tor website</a></small></small></span>
+                </section>
+                <section data-background="cifra-te-ou-devoram-images-session01/htw3_es.png" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://www.torproject.org/about/overview.html.en#thesolution">Tor website</a></small></small></span>
+                </section>
+                <section>
+                    <p>
+                    Mais fácil e segura de usar o rede Tor para acessar a é
+                    através do Navegador Tor.
+                    <a href="https://www.torproject.org/">https://www.torproject.org/</a>
+                    </p>
+                </section>
+            </section>
+            <section>
+            Materiais e referencias
+                <section>
+                    <ul>
+                        <li>Tem boi na linha? <small>http://www.temboinalinha.org/</small></li>
+                        <li>Autodefesa contra Vigilância <small>https://ssd.eff.org/pt-br/</small></li>
+                        <li>Guia de Autodefesa Digital <small>https://manual.fluxo.info/</small></li>
+                        <li>Manifesto de um Cypherpunk <small>https://www.activism.net/cypherpunk/manifesto.html</small></li>
+                        <li>Tor brochure <small>https://people.torproject.org/~karsten/tor-brochure/tor-brochure-pt-BR.pdf</small></li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li>Orbot and Orfox guide <small>https://antivigilancia.org/pt/2017/05/orbot-orfox-2</small></li>
+                        <li>The Web Means the End of Forgetting <small>http://www.nytimes.com/2010/07/25/magazine/25privacy-t2.html?_r=1&ref=technology</small></li>
+                        <li>Como a Internet funciona? <small>https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Como_a_internet_funciona</small></li>
+                        <li>Editorial Guidelines Guardian <small>http://image.guardian.co.uk/sys-files/Guardian/documents/2011/08/08/EditorialGuidelinesAug2011.pdf</small></li>
+                    </ul>
+                </section>
+                <section>
+                    <p>
+                    <small><small>Imagem sources:</small></small>
+                    <small><small><a href="http://en.wikipedia.org/wiki/Image:Surveillance_quevaal.jpg">Quevaal</a>,</small></small>
+                    <small><small><a href="http://www.agenciabrasil.gov.br/galerias-de-fotos/2008/10/01/galeria_de_fotos.2008-10-01.7803856103">Agência Brasil</a>,</small></small>
+                    <small><small><a href="https://commons.wikimedia.org/wiki/File:IllinoisTelephoneAndTelegraphAd.png">Hameltonian and Republican National Convention Program</a>,</small></small>
+                    <small><small><a href="https://ccsearch.creativecommons.org/image/detail/k_KqXrbA_u0sx5l4mPHT_Q==">“Privacy” by KylaBorg is licensed under CC BY 2.0</a>,</small></small>
+                    <small><small><a href="http://mideastposts.com/wp-content/uploads/2011/05/BigBrother.jpg">MidEastPosts.com</a>,</small></small>
+                    <small><small><a href="https://medium.com/medium-brasil/manifesto-de-um-cypherpunk-3c678c4898c5">Manifesto de um Cypherpunk</a>,</small></small>
+                    <small><small><a href="https://openclipart.org/detail/192604/heartbleed-patch-needed">rejon</a>,</small></small>
+                    <small><small><a href="https://commons.wikimedia.org/wiki/File:PQuevaaluffy_mascot_openbsd.gif">OpenBSD</a>,</small></small>
+                    <small><small><a href="https://openclipart.org/detail/192935/heart-bleed-patch">Merlin2525</a>,</small></small>
+                    <small><small><a href="https://openclipart.org/detail/63019/padepokan-firewall">dias</a>,</small></small>
+                    <small><small><a href="https://commons.wikimedia.org/wiki/File:Internet_map_1024_-_transparent,_inverted.png">Mapa parcial de Internet basado en la información obtenida del sitio opte.org el 15 de enero de 2005</a>,</small></small>
+                    <small><small><a href="https://mdn.mozillademos.org/files/8449/internet-schema-5.png">About MDN by Mozilla Contributors is licensed under CC-BY-SA 2.5</a>,</small></small>
+                    <small><small><a href="https://en.wikipedia.org/wiki/File:Telefonbog_ubt-1.JPG">Tomasz Sienicki</a>,</small></small>
+                    <small><small><a href="https://commons.wikimedia.org/wiki/File:We_know_where_you_are_(71797).jpg">Rhododendrites</a>,</small></small>
+                    <small><small><a href="https://media.torproject.org/image/official-images/2011-tor-logo-flat.svg">The Tor Project, Inc.</a>,</small></small>
+                    <small><small><a href="https://people.torproject.org/~karsten/tor-brochure/tor-brochure-pt-BR.pdf">Tor brochure</a>,</small></small>
+                    <small><small><a href="https://www.torproject.org/about/overview.html.en#thesolution">Tor website</a></small></small></span>
+                    </p>
+                </section>
+            </section>
+            <section>
+                <h3>Obrigado pelo sua atenção!</h3>
+            </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
