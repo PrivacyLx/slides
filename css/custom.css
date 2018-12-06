@@ -1,0 +1,25 @@
+/*********************************************
+ * Attribution -- <span class="attribution">Attribution Text</span>
+ * https://stackoverflow.com/questions/24843827/how-do-i-put-attribution-text-on-background-images-in-reveal-js
+ *********************************************/
+.attribution{
+  position:fixed;
+  bottom:0;
+  right:0;
+/* Enable for print out */
+/*  display: none;
+*/
+  color: #404040
+}
+
+/* Spread image */
+
+.reveal section img {
+    background: none;
+    border: none;
+}
+
+div.spread {
+    display: flex;
+    justify-content: space-around;
+}
