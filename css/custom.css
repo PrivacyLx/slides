@@ -23,3 +23,9 @@ div.spread {
     display: flex;
     justify-content: space-around;
 }
+
+.attribution-small{
+  position:fixed;
+  bottom:0;
+  right:0;
+  font-size:8px;
